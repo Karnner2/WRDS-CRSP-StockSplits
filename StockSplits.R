@@ -26,7 +26,8 @@ wrds <- dbConnect(Postgres(),
                   port=9737,
                   dbname='wrds',
                   sslmode='require',
-                  user='jfluhar4')
+                  user='',
+                  password='') ### note update User and password for WRDS 
 
 ############### Not required: Pull schemas if you need to find variable names 
 ##### CRSP DSF schema 
